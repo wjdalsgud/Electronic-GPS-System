@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/edge"
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+
+
+            <TextView
+                android:id="@+id/nameData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:layout_marginBottom="5dp"
+                android:text="등록된 정보가 없습니다"
+                android:drawableLeft="@drawable/ev"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/addressData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/home"
+                android:text="등록된 정보가 없습니다"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="10dp"
+                android:text="충전 요금"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/priceData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/money"
+                android:text="등록된 정보가 없습니다"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="10dp"
+                android:text="충전기 타입"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/typeData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/power"
+                android:text="등록된 정보가 없습니다"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="10dp"
+                android:text="충전기 상태"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/stateData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/state"
+                android:text="등록된 정보가 없습니다"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/capacity"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="10dp"
+                android:text="충전 용량"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/capacityData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/capacity"
+                android:text="등록된 정보가 없습니다"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/way"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="10dp"
+                android:text="충전 방식"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/wayData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/charge"
+                android:text="등록된 정보가 없습니다"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/information"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="10dp"
+                android:text="상세 정보"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/organizationData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:text=" 등록된 정보가 없습니다"
+                android:drawableLeft="@drawable/building"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/timeData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:text=" 등록된 정보가 없습니다"
+                android:drawableLeft="@drawable/time"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/numberData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:text=" 등록된 정보가 없습니다"
+                android:drawableLeft="@drawable/phone"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/poi"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="주변 문화시설"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/markerListView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:nestedScrollingEnabled="true"
+                android:scrollbarFadeDuration = "0"
+                android:scrollbarAlwaysDrawVerticalTrack = "true"
+                android:scrollbarSize="10dp"
+                android:scrollbarThumbVertical="@color/purple_200"
+                />
+
+            <TextView
+                android:id="@+id/review"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="10dp"
+                android:text="방문자 리뷰"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/reviewData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:text=" 등록된 정보가 없습니다"
+                android:textSize="20sp" />
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/review_button"
+                        android:layout_width="250dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#8B673AB7"
+                        android:text="리뷰 작성"
+                        android:textSize="24sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </TableLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/AC_5"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/purple_200"
+            android:text="AC 완속" />
+
+        <Button
+            android:id="@+id/AC_3"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@color/purple_200"
+            android:text="AC 3상" />
+
+        <Button
+            android:id="@+id/DC_C"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@color/purple_200"
+            android:text="DC 콤보" />
+
+        <Button
+            android:id="@+id/DC_D"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@color/purple_200"
+            android:text="DC 차데모" />
+
+
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#345E86"
+        app:itemIconTint="#FFFFFF"
+        app:itemTextColor="#f6d170"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/smenu" />
+</RelativeLayout>
