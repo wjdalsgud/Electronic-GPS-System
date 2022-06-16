@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id = "@+id/find_culture"
+        android:enabled="true"
+        android:icon="@drawable/culture_find"
+        android:title="검색옵션\n"
+        app:showAsAction="always"/>
+    <item
+        android:id= "@+id/chart"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/show_chart"
+        android:title="차트그래프" >
+    </item>
+
+    <item
+        android:id = "@+id/navigation"
+        android:enabled="true"
+        android:icon="@drawable/navigation"
+        android:title ="길찾기"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id = "@+id/read"
+        android:enabled="true"
+        android:icon="@drawable/menu_book"
+        android:title ="게시판"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/menu"
+        android:enabled="true"
+        android:icon="@drawable/menu_icon"
+        android:title="충전기 정보"
+        app:showAsAction="always">
+    </item>
+
+</menu>

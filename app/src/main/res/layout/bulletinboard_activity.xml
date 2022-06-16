@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/write"
+            tools:ignore="MissingConstraints" />
+
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="409dp"
+            android:layout_height="300dp"
+            android:divider="#00FF00"
+            android:dividerHeight="2dp"
+            app:layout_constraintCircleRadius="70dp"
+            tools:ignore="MissingConstraints"></ListView>
+
+
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#345E86"
+        app:itemIconTint="#FFFFFF"
+        app:itemTextColor="#f6d170"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/smenu" />
+</RelativeLayout>
+
+
+
+
